@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+   }
+  a{
+   text-decoration: none;
+  }
+  ul{
+   list-style: none;
+  }
+  img{
+   display: block;
+   width:100%;
+  }
+  body{
+   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family:'Rubik Bubbles', sans-serif ;
+   height: 95vh;
+  }
+  
+  .main-container{
+     margin: 2rem;
+     
+  }
+  .sub-container{
+     margin: 3.3rem;
+  }
+  .nav{
+     display: flex;
+     justify-content: space-between;
+    
+  }
+ .btn{
+     padding: 1rem;
+     border: none;
+    
+  }
+  .btn:hover{
+   background-color:transparent;
+   border: 2px solid #03363a;
+   transition: 0.5s ease-out;
+   color: white;
+  }
+  button>a {
+     text-transform: capitalize;
+     font-size: 1.5rem;
+     font-family:'Rubik Bubbles', sans-serif ;
+     color: black;
+  }
+  .nav>p{
+     font-size: 1.5rem;
+  }
+  .head-area{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+   }
+  .inner-head{
+   border-radius: 100%;
+   padding: 6rem;
+   border: 5px solid yellowgreen;
+  }
+  .inner-head h1{
+     text-transform: uppercase;
+     font-size: 4rem;
+     font-weight: 400;
+    }
+  .inner-head .hidden-box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 4%;
+     margin-left: 18%;
+     position: absolute;
+     width:6vw;
+     height:5vw;
+     background-color: white;
+     color: black;
+    
+  }
+ 
+  .inner-head .hidden-box p{
+    
+     font-size: 3rem;
+     font-weight:400;
+  }
+  
+  .inner-score{
+     display: flex;
+     justify-content: space-around;
+     
+     }
+  .inner-score .user-enter .number-box{
+     border: 1.8px solid white;
+     text-align: center;
+     width:7vw;
+     height: 12vh;
+     background-color: transparent;
+     color: white;
+     font-size: 2rem;
+  }
+  .inner-score .user-enter .check{
+     margin-left: 1.5rem;
+     text-transform: capitalize;
+     font-size: 1.5rem;
+     font-weight:200;
+     font-family:'Rubik Bubbles', sans-serif ;
+     color: black;
+  }
+  .inner-score .score-board {
+   width:25%; 
+ 
+  }
+  .inner-score .score-board h2 {
+     text-transform: capitalize;
+     font-weight: lighter;
+     font-size: 1.8rem;
+
+  }
+  .inner-score .score-board p{
+   text-transform: capitalize;
+     font-weight: lighter;
+     font-size: 1.3rem;
+     line-height: 1.8;
+  }
+ 

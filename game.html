@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&family=Permanent+Marker&family=Press+Start+2P&family=Roboto:ital,wght@0,300;1,100;1,300&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="game.css">
+    <title>guess my number</title>
+</head>
+<body> 
+    <header>
+        <div class="main-container nav">
+            <button class="btn again"><a href="#">again!</a></button>
+            <p>(between 1 to 10)</p>
+        </div>
+    </header>
+    <main>
+        <section class="head-area">
+            <div class="main-container   inner-head">
+                <h1>guess my number!</h1>
+                <div class="hidden-box">
+                  <p class="think">?</p>
+                </div>
+            </div>
+            
+        </section>
+        <section class="score">
+         <div class="sub-container inner-score">
+            <div class="user-enter">
+              <input   class="number-box" type="number" placeholder="">
+              <button class="btn check">check!</button>
+            </div>
+            <div class="score-board">
+              <h2 class="display-message">start guessing...</h2>
+              <p class="score"> 
+                💯 score:<span class="score-number"> 20</span>
+             </p>
+             <p class="highscore">
+                🥇 highscore: <span class="highscore-number"> 0</span>
+              </p>
+            </div>
+
+         </div>
+        </section>
+    </main>
+    <script src="game.js"></script>
+</body>
+</html>
